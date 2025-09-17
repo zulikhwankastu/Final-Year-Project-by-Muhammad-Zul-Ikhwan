@@ -1,0 +1,66 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Dashboard Link Styling */
+a {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+/* Hover Effect for the Link */
+a:hover {
+    background-color: #e6f7ff;
+    color: #0056b3;
+}
+
+/* Container Styling for Responsive Layout */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Back Button Styling */
+.back-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f0f8ff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for the Back Button */
+.back-button:hover {
+    background-color: #e6f7ff;
+    color: #0056b3;
+    border-color: #0056b3;
+}

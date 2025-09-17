@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.room-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.room {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.room:hover {
+    transform: scale(1.05);
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.room-info {
+    padding: 15px;
+}
+
+.room-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.room-info p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.room-info strong {
+    color: #000;
+}
